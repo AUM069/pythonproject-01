@@ -1,0 +1,44 @@
+# pythonproject-01
+I've started developing my own projects after learning the fundamentals of Python. This is my first project, which is called the Law Quiz. A computer will ask you a few legal questions, and at the end of the project, you can view your score. 
+print("Holaaa Aum , I am LAW-AI,your law assiatant\n")
+lawquiz= input("NIVAN: Do you want to play a law quiz aum?\n")
+if lawquiz != "yes":
+   quit()
+print("LAW-AI: Okay,lets play :)\n") 
+score=0
+answer = input("LAW-AI: Who is the Legal Advisor to the Government of a State in India?\n")
+if answer == "the advocate general":
+       print('correct ans bruhhhhh , going hard my man\n')
+       score +=1
+else:
+  print("incorrect bruh , the ans is the advocate general\n")
+  
+answer= input("LAW-AI :The age of retirement of a Judge of a High Court in India is\n")
+if answer == "62":
+  print("correct ans bruhhhhh , going hard my man\n")
+  score+=1
+else:
+  print("incorrect bruh, the ans is 62 , think hard bruh\n")
+
+answer = input("LAW-AI :What is the total number of High Courts in India?")
+if answer == "25":
+  print("correct ans bruhhhhh , going hard my man\n ")
+  score+=1
+else:
+  print("incorrect bruh, the ans is 25 , think hard bruh\n")
+answer = input("LAW-AI: Sharda Act deals with\n")  
+if answer== "child marriage":
+  print("correct ans bruhhhhh , going hard my man\n")
+  score+=1
+else:
+  print("incorrect bruh, the ans is child marriage , think hard bruh\n")
+
+answer = input("LAW-AI :Who was the first Minister of Law of independent India?\n")
+if answer== "dr br ambedkar":
+  print("correct ans bruhhhhh , going hard my man\n")
+  score+=1
+else:
+  print("incorrect bruh, the ans is dr br ambedkar , think hard bruh\n")
+
+print(f"Aum you got {score} questions correct")
+print(f"Aum  you got {score/5*100} %")
